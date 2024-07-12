@@ -19,6 +19,9 @@ rarp_simulation/
 2. Compile the Java files:
 3. Run the simulation:
 
+cd src  
+javac Device.java RarpServer.java RarpSimulation.java  
+java RarpSimulation  
 
 ## Description
 
@@ -31,11 +34,7 @@ rarp_simulation/
 Device(MAC: 00:1A:2B:3C:4D:5E, IP: 192.168.0.2)  
 Device(MAC: 00:1A:2B:3C:4D:5F, IP: 192.168.0.3)  
 
-## How to Run
 
-cd src  
-javac Device.java RarpServer.java RarpSimulation.java  
-java RarpSimulation  
 
 
 
