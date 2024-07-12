@@ -19,9 +19,11 @@ rarp_simulation/
 2. Compile the Java files:
 3. Run the simulation:
 
+```
 cd src  
 javac Device.java RarpServer.java RarpSimulation.java  
 java RarpSimulation  
+```
 
 ## Description
 
